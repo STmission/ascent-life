@@ -1,0 +1,63 @@
+{
+  "name": "ascent-life",
+  "version": "1.0.0",
+  "description": "浮生 Ascent — a life from birth to death, playable on the web and packaged for Steam.",
+  "author": "Independent",
+  "license": "MIT",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --test test/*.test.js",
+    "desktop": "npm run build && electron .",
+    "desktop:steam": "npm run build && STEAM_ENABLED=1 electron .",
+    "steam:dir": "npm run build && electron-builder --dir",
+    "steam:win": "npm run build && electron-builder --win --x64 --dir",
+    "steam:linux": "npm run build && electron-builder --linux --x64 --dir"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "vite": "^6.0.3"
+  },
+  "build": {
+    "appId": "com.ascent.life",
+    "productName": "Ascent",
+    "directories": {
+      "output": "steam/build"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "identity": null,
+      "category": "public.app-category.games",
+      "target": [
+        "dir"
+      ]
+    },
+    "win": {
+      "target": [
+        "dir"
+      ]
+    },
+    "linux": {
+      "target": [
+        "dir"
+      ]
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  },
+  "optionalDependencies": {
+    "steamworks.js": "^0.4.0"
+  }
+}

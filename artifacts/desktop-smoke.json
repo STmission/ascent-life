@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "position": {
+    "x": 0.2,
+    "z": 1.8422365600000075,
+    "yaw": 0
+  },
+  "resources": [
+    {
+      "name": "http://127.0.0.1:17844/models/scenes.glb",
+      "bytes": 4299544
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/hoodie.gltf",
+      "bytes": 3104301
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/casual2.gltf",
+      "bytes": 3058392
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/suit-m.gltf",
+      "bytes": 3315642
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/worker.gltf",
+      "bytes": 2967323
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/casual-f.gltf",
+      "bytes": 3132088
+    },
+    {
+      "name": "http://127.0.0.1:17844/models/cast/formal.gltf",
+      "bytes": 3083253
+    }
+  ]
+}

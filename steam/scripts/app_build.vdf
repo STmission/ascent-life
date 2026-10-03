@@ -1,0 +1,11 @@
+"AppBuild"
+{
+	"AppID" "YOUR_APP_ID"
+	"Desc" "Ascent content build"
+	"ContentRoot" "../../steam/build"
+	"BuildOutput" "../output"
+	"Depots"
+	{
+		"YOUR_DEPOT_ID" "depot_build.vdf"
+	}
+}

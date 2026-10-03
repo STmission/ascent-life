@@ -1,0 +1,12 @@
+node_modules
+dist
+steam/build
+steam/output
+.DS_Store
+*.log
+release-assets/
+tools/vendor/
+__pycache__/
+*.pyc
+.env
+.env.*

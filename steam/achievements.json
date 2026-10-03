@@ -1,0 +1,17 @@
+[
+  { "id": "FIRST_BREATH", "name": "第一口呼吸", "name_en": "First Breath", "description": "开始一次人生" },
+  { "id": "MIDDLE", "name": "中层", "name_en": "Middle", "description": "生活站上中层" },
+  { "id": "ELITE", "name": "精英", "name_en": "Elite", "description": "走进精英层" },
+  { "id": "FREE", "name": "财富自由", "name_en": "Independent", "description": "钱不再规定你的早晨" },
+  { "id": "MARRIED", "name": "结盟", "name_en": "Vows", "description": "结婚" },
+  { "id": "UNMARRIED", "name": "自成一户", "name_en": "A Household of One", "description": "选择不结婚" },
+  { "id": "DIVORCED", "name": "分开", "name_en": "Apart", "description": "经历离婚" },
+  { "id": "PARENT", "name": "下一代", "name_en": "The Next Room", "description": "抚养孩子" },
+  { "id": "UNIVERSITY", "name": "入学", "name_en": "Admitted", "description": "走上求学的路" },
+  { "id": "EARLY_WORK", "name": "先上班", "name_en": "Clocked In", "description": "很早进入工作" },
+  { "id": "RAGS", "name": "往上走", "name_en": "Upward", "description": "从拮据起步，走到精英或财富自由" },
+  { "id": "FILIAL", "name": "病床边", "name_en": "Bedside", "description": "把时间和钱花在父母身上" },
+  { "id": "SPLIT_HOME", "name": "两扇门", "name_en": "Two Doors", "description": "经历父母分开" },
+  { "id": "LONG_LIFE", "name": "还康健", "name_en": "Still Well", "description": "带着较好的身体走到终点" },
+  { "id": "FULL_LIFE", "name": "走完", "name_en": "A Whole Life", "description": "从出生走到死亡" }
+]
