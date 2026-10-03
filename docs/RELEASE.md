@@ -20,4 +20,4 @@
 - macOS 包未签名或公证，外部下载运行需要发行方的签名流程。
 - Windows 包的跨平台构建不等同于在 Windows 硬件上通过测试。
 - Steam 服务需要正式应用配置和拥有该应用的测试账号，离线模式不证明 Steam 成就/云存档正常。
-- 网页尚未绑定公开域名。没有发行账号和托管账号时无法代替发行方完成正式发布。
+- 网页已发布到 https://stmission.github.io/ascent-life/，桌面下载见 https://github.com/STmission/ascent-life/releases/latest 。Steam 正式上架仍需发行方账号和应用 ID。
